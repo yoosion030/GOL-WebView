@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37A2ADCC2A29E3A9006D9A5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A2ADCB2A29E3A9006D9A5A /* AppDelegate.swift */; };
+		37A2ADCE2A29E3A9006D9A5A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A2ADCD2A29E3A9006D9A5A /* SceneDelegate.swift */; };
+		37A2ADD02A29E3A9006D9A5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A2ADCF2A29E3A9006D9A5A /* ViewController.swift */; };
+		37A2ADD32A29E3A9006D9A5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37A2ADD12A29E3A9006D9A5A /* Main.storyboard */; };
+		37A2ADD52A29E3AA006D9A5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37A2ADD42A29E3AA006D9A5A /* Assets.xcassets */; };
+		37A2ADD82A29E3AA006D9A5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37A2ADD62A29E3AA006D9A5A /* LaunchScreen.storyboard */; };
+		37A2ADE32A29E3AA006D9A5A /* GOL_APPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A2ADE22A29E3AA006D9A5A /* GOL_APPTests.swift */; };
+		37A2ADED2A29E3AA006D9A5A /* GOL_APPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A2ADEC2A29E3AA006D9A5A /* GOL_APPUITests.swift */; };
+		37A2ADEF2A29E3AA006D9A5A /* GOL_APPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A2ADEE2A29E3AA006D9A5A /* GOL_APPUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37A2ADDF2A29E3AA006D9A5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37A2ADC02A29E3A9006D9A5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37A2ADC72A29E3A9006D9A5A;
+			remoteInfo = "GOL-APP";
+		};
+		37A2ADE92A29E3AA006D9A5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37A2ADC02A29E3A9006D9A5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37A2ADC72A29E3A9006D9A5A;
+			remoteInfo = "GOL-APP";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		37A2ADC82A29E3A9006D9A5A /* GOL-APP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GOL-APP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37A2ADCB2A29E3A9006D9A5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		37A2ADCD2A29E3A9006D9A5A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		37A2ADCF2A29E3A9006D9A5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		37A2ADD22A29E3A9006D9A5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		37A2ADD42A29E3AA006D9A5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37A2ADD72A29E3AA006D9A5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		37A2ADD92A29E3AA006D9A5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37A2ADDE2A29E3AA006D9A5A /* GOL-APPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GOL-APPTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37A2ADE22A29E3AA006D9A5A /* GOL_APPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOL_APPTests.swift; sourceTree = "<group>"; };
+		37A2ADE82A29E3AA006D9A5A /* GOL-APPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GOL-APPUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37A2ADEC2A29E3AA006D9A5A /* GOL_APPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOL_APPUITests.swift; sourceTree = "<group>"; };
+		37A2ADEE2A29E3AA006D9A5A /* GOL_APPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOL_APPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37A2ADC52A29E3A9006D9A5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37A2ADDB2A29E3AA006D9A5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37A2ADE52A29E3AA006D9A5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37A2ADBF2A29E3A9006D9A5A = {
+			isa = PBXGroup;
+			children = (
+				37A2ADCA2A29E3A9006D9A5A /* GOL-APP */,
+				37A2ADE12A29E3AA006D9A5A /* GOL-APPTests */,
+				37A2ADEB2A29E3AA006D9A5A /* GOL-APPUITests */,
+				37A2ADC92A29E3A9006D9A5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37A2ADC92A29E3A9006D9A5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37A2ADC82A29E3A9006D9A5A /* GOL-APP.app */,
+				37A2ADDE2A29E3AA006D9A5A /* GOL-APPTests.xctest */,
+				37A2ADE82A29E3AA006D9A5A /* GOL-APPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37A2ADCA2A29E3A9006D9A5A /* GOL-APP */ = {
+			isa = PBXGroup;
+			children = (
+				37A2ADCB2A29E3A9006D9A5A /* AppDelegate.swift */,
+				37A2ADCD2A29E3A9006D9A5A /* SceneDelegate.swift */,
+				37A2ADCF2A29E3A9006D9A5A /* ViewController.swift */,
+				37A2ADD12A29E3A9006D9A5A /* Main.storyboard */,
+				37A2ADD42A29E3AA006D9A5A /* Assets.xcassets */,
+				37A2ADD62A29E3AA006D9A5A /* LaunchScreen.storyboard */,
+				37A2ADD92A29E3AA006D9A5A /* Info.plist */,
+			);
+			path = "GOL-APP";
+			sourceTree = "<group>";
+		};
+		37A2ADE12A29E3AA006D9A5A /* GOL-APPTests */ = {
+			isa = PBXGroup;
+			children = (
+				37A2ADE22A29E3AA006D9A5A /* GOL_APPTests.swift */,
+			);
+			path = "GOL-APPTests";
+			sourceTree = "<group>";
+		};
+		37A2ADEB2A29E3AA006D9A5A /* GOL-APPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				37A2ADEC2A29E3AA006D9A5A /* GOL_APPUITests.swift */,
+				37A2ADEE2A29E3AA006D9A5A /* GOL_APPUITestsLaunchTests.swift */,
+			);
+			path = "GOL-APPUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37A2ADC72A29E3A9006D9A5A /* GOL-APP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37A2ADF22A29E3AA006D9A5A /* Build configuration list for PBXNativeTarget "GOL-APP" */;
+			buildPhases = (
+				37A2ADC42A29E3A9006D9A5A /* Sources */,
+				37A2ADC52A29E3A9006D9A5A /* Frameworks */,
+				37A2ADC62A29E3A9006D9A5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GOL-APP";
+			productName = "GOL-APP";
+			productReference = 37A2ADC82A29E3A9006D9A5A /* GOL-APP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		37A2ADDD2A29E3AA006D9A5A /* GOL-APPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37A2ADF52A29E3AA006D9A5A /* Build configuration list for PBXNativeTarget "GOL-APPTests" */;
+			buildPhases = (
+				37A2ADDA2A29E3AA006D9A5A /* Sources */,
+				37A2ADDB2A29E3AA006D9A5A /* Frameworks */,
+				37A2ADDC2A29E3AA006D9A5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37A2ADE02A29E3AA006D9A5A /* PBXTargetDependency */,
+			);
+			name = "GOL-APPTests";
+			productName = "GOL-APPTests";
+			productReference = 37A2ADDE2A29E3AA006D9A5A /* GOL-APPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		37A2ADE72A29E3AA006D9A5A /* GOL-APPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37A2ADF82A29E3AA006D9A5A /* Build configuration list for PBXNativeTarget "GOL-APPUITests" */;
+			buildPhases = (
+				37A2ADE42A29E3AA006D9A5A /* Sources */,
+				37A2ADE52A29E3AA006D9A5A /* Frameworks */,
+				37A2ADE62A29E3AA006D9A5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37A2ADEA2A29E3AA006D9A5A /* PBXTargetDependency */,
+			);
+			name = "GOL-APPUITests";
+			productName = "GOL-APPUITests";
+			productReference = 37A2ADE82A29E3AA006D9A5A /* GOL-APPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37A2ADC02A29E3A9006D9A5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					37A2ADC72A29E3A9006D9A5A = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					37A2ADDD2A29E3AA006D9A5A = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 37A2ADC72A29E3A9006D9A5A;
+					};
+					37A2ADE72A29E3AA006D9A5A = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 37A2ADC72A29E3A9006D9A5A;
+					};
+				};
+			};
+			buildConfigurationList = 37A2ADC32A29E3A9006D9A5A /* Build configuration list for PBXProject "GOL-APP" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37A2ADBF2A29E3A9006D9A5A;
+			productRefGroup = 37A2ADC92A29E3A9006D9A5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37A2ADC72A29E3A9006D9A5A /* GOL-APP */,
+				37A2ADDD2A29E3AA006D9A5A /* GOL-APPTests */,
+				37A2ADE72A29E3AA006D9A5A /* GOL-APPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37A2ADC62A29E3A9006D9A5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37A2ADD82A29E3AA006D9A5A /* LaunchScreen.storyboard in Resources */,
+				37A2ADD52A29E3AA006D9A5A /* Assets.xcassets in Resources */,
+				37A2ADD32A29E3A9006D9A5A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37A2ADDC2A29E3AA006D9A5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37A2ADE62A29E3AA006D9A5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37A2ADC42A29E3A9006D9A5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37A2ADD02A29E3A9006D9A5A /* ViewController.swift in Sources */,
+				37A2ADCC2A29E3A9006D9A5A /* AppDelegate.swift in Sources */,
+				37A2ADCE2A29E3A9006D9A5A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37A2ADDA2A29E3AA006D9A5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37A2ADE32A29E3AA006D9A5A /* GOL_APPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37A2ADE42A29E3AA006D9A5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37A2ADED2A29E3AA006D9A5A /* GOL_APPUITests.swift in Sources */,
+				37A2ADEF2A29E3AA006D9A5A /* GOL_APPUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37A2ADE02A29E3AA006D9A5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37A2ADC72A29E3A9006D9A5A /* GOL-APP */;
+			targetProxy = 37A2ADDF2A29E3AA006D9A5A /* PBXContainerItemProxy */;
+		};
+		37A2ADEA2A29E3AA006D9A5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37A2ADC72A29E3A9006D9A5A /* GOL-APP */;
+			targetProxy = 37A2ADE92A29E3AA006D9A5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		37A2ADD12A29E3A9006D9A5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37A2ADD22A29E3A9006D9A5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		37A2ADD62A29E3AA006D9A5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37A2ADD72A29E3AA006D9A5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37A2ADF02A29E3AA006D9A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		37A2ADF12A29E3AA006D9A5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37A2ADF32A29E3AA006D9A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CXKQNMCPYG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GOL-APP/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sion.com.GOL-APP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37A2ADF42A29E3AA006D9A5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CXKQNMCPYG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GOL-APP/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sion.com.GOL-APP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		37A2ADF62A29E3AA006D9A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CXKQNMCPYG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sion.com.GOL-APPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GOL-APP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GOL-APP";
+			};
+			name = Debug;
+		};
+		37A2ADF72A29E3AA006D9A5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CXKQNMCPYG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sion.com.GOL-APPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GOL-APP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GOL-APP";
+			};
+			name = Release;
+		};
+		37A2ADF92A29E3AA006D9A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CXKQNMCPYG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sion.com.GOL-APPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GOL-APP";
+			};
+			name = Debug;
+		};
+		37A2ADFA2A29E3AA006D9A5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CXKQNMCPYG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sion.com.GOL-APPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GOL-APP";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37A2ADC32A29E3A9006D9A5A /* Build configuration list for PBXProject "GOL-APP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37A2ADF02A29E3AA006D9A5A /* Debug */,
+				37A2ADF12A29E3AA006D9A5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37A2ADF22A29E3AA006D9A5A /* Build configuration list for PBXNativeTarget "GOL-APP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37A2ADF32A29E3AA006D9A5A /* Debug */,
+				37A2ADF42A29E3AA006D9A5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37A2ADF52A29E3AA006D9A5A /* Build configuration list for PBXNativeTarget "GOL-APPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37A2ADF62A29E3AA006D9A5A /* Debug */,
+				37A2ADF72A29E3AA006D9A5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37A2ADF82A29E3AA006D9A5A /* Build configuration list for PBXNativeTarget "GOL-APPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37A2ADF92A29E3AA006D9A5A /* Debug */,
+				37A2ADFA2A29E3AA006D9A5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37A2ADC02A29E3A9006D9A5A /* Project object */;
+}
